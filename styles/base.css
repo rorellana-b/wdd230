@@ -1,0 +1,125 @@
+:root {
+    --primary-color: #073b4c;
+    --secundary-color: #118ab2;
+    --conteiner-color: #EADDFF;
+    --tex-in-color: #EADDFF;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#home {
+    background-color: rgba(0, 156, 0, 0.7)
+}
+
+header {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 0%;
+}
+
+header span {
+    color: var(--tex-in-color);
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header img {
+    width: 75px;
+}
+
+nav {
+    background-color: var(--primary-color);
+
+}
+
+nav a {
+    display: block;
+    color: var(--tex-in-color);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav li {
+    padding: 5px;
+    list-style: none;
+}
+
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#home :hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+h1 {
+    font-size: 1.6rem;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 100;
+}
+
+.card {
+
+    margin: 2%;
+    border: solid 1px var(--primary-color);
+    border-radius: 6px;
+}
+
+.card ul {
+    list-style: none;
+    text-align: left;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+
+.card ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.card h2 {
+    background-color: var(--primary-color);
+    color: var(--tex-in-color);
+    padding: 2px;
+    margin: 0;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card span {
+    text-decoration: underline;
+    color: blue;
+
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--tex-in-color);
+    text-align: center;
+}
+
+#lastModified {
+    color: rgb(221, 221, 70);
+}
