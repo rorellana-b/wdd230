@@ -56,3 +56,10 @@ section {
 section h3 {
     text-align: center;
 }
+
+a {
+    font-size: 1.5rem;
+    color: blue;
+    font-family: 'Lucida Sans';
+    text-decoration: none;
+}
