@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 37.5rem) {
     nav ul {
         display: flex;
         justify-content: space-evenly;
@@ -9,6 +9,10 @@
 
     nav li {
         width: 100%;
+    }
+
+    nav a {
+        display: flex;
     }
 
 
@@ -33,6 +37,10 @@
 
     .card {
         grid-row: 2/3;
+    }
+
+    #menu {
+        display: none;
     }
 
 

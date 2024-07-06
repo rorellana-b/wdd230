@@ -18,7 +18,7 @@ nav ul {
 }
 
 #home {
-    background-color: #009c00b3
+    background-color: #011615a9;
 }
 
 header {
@@ -47,7 +47,7 @@ nav {
 }
 
 nav a {
-    display: block;
+    display: none;
     color: var(--tex-in-color);
     text-align: center;
     padding: 10px;
@@ -122,4 +122,39 @@ footer {
 
 #lastModified {
     color: rgb(221, 221, 70);
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: white;
+    position: absolute;
+    right: 1rem;
+}
+
+#mode {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    margin: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "❌";
+}
+
+.navigation {
+    display: block;
+    flex-direction: column;
+    list-style: none;
+    color: #fff;
+}
+
+.open a {
+    display: block;
 }
