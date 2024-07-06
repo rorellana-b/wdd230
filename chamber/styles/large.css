@@ -1,0 +1,47 @@
+@media screen and (min-width: 37.5rem) {
+
+    nav a {
+        display: flex;
+        color: black;
+        font-size: large;
+        padding: 20px;
+    }
+
+    nav a:hover {
+        background-color: rgba(89, 145, 249, 0.2);
+    }
+
+    nav {
+        display: flex;
+        background-color: white;
+
+    }
+
+    header {
+        margin-top: 20px;
+        display: flex;
+        justify-content: left;
+    }
+
+    header img {
+        width: 100px;
+        position: absolute;
+        right: 1rem;
+        padding: 5%;
+    }
+
+    .spot {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        margin: 5% 0px;
+    }
+
+    .spotCard img {
+        max-width: 100px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+}

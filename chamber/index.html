@@ -4,28 +4,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="description"
+        content="Chamber of Commerce for WDD 230 Web Frontend Development course by Ronal Orellana">
+    <meta property="og:title" content="WDD 230 - Web Frontend Development">
+    <meta property="og:image" content="https://www.linkedin.com/in/ronal-orellana-17a10b224/">
+    <meta property="og:url" content="https://rorellana-b.github.io/wdd230/">
+    <link rel="icon" href="images/flag.ico">
+    <meta name="Author" content="Ronal Balmore Orellana Bonilla">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <!-- Font Awesome 5.15.1 CSS -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+    <script defer src="scripts/getInfo.js"></script>
     <title>Chamber of Commerce - El Salvador</title>
 </head>
 
 <body>
+
     <header>
         <img src="images/logo.png" alt="">
-        <nav>
+        <button id="menu"></button>
+        <nav class="navigation">
             <a href="#">Home</a>
             <a href="#">Discover</a>
             <a href="#">Directory</a>
             <a href="#">Join</a>
         </nav>
     </header>
-    <main>
-        <img src="images/Centro-Historico-de-San-Salvador.webp" alt="CH">
-        <div class="card">
-            <img src="images/Centro-Historico-de-San-Salvador.webp" alt="CH">
 
-        </div>
+    <main>
+        <img src="images/hero.webp" alt="CH">
+        <button class="btnJoin">Join to the Chamber</button>
+        <section>
+            <h2>Information</h2>
+            <div class="card">
+                <p>Chalatenango, El Salvador</p>
+                <p>☀️ 76 &#186;F - Sunshine</p>
+                <p>Page Visits: </p>
+            </div>
+        </section>
+        <section>
+            <h2>Events</h2>
+            <div class="card">
+                <img class="cardImg" src="images/solutions.jpeg" alt="">
+            </div>
+        </section>
+        <section class="spot">
+            <div class="spotCard">
+                <h2>Spotlights 1</h2>
+                <img class="cardImg" src="images/solutions.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="spotCard">
+                <h2>Spotlights 2</h2>
+                <img class="cardImg" src="images/solutions.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="spotCard">
+                <h2>Spotlights 3</h2>
+                <img class="cardImg" src="images/solutions.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+        </section>
+
+        <Section>
+            <div class="wrapper">
+                <a href="#" class="icon facebook">
+                    <span><i class="fab fa-facebook-f"></i></span>
+                </a></a>
+                <a href="#" class="icon twitter">
+                    <span><i class="fab fa-twitter"></i></span>
+                </a></a>
+                <a href="#" class="icon instagram">
+                    <span><i class="fab fa-instagram"></i></span>
+                </a></a>
+            </div>
+        </Section>
+
     </main>
     <footer>
-
+        <p id="currentYear"></p>
+        <p id="lastModified"></p>
     </footer>
 
 </body>

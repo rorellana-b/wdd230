@@ -1,0 +1,122 @@
+:root {
+    --primary-color: #0047ab;
+    --secundary-color: #023047;
+    --conteiner-color: #EADDFF;
+    --tex-in-color: #EADDFF;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+header {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0%;
+}
+
+
+header img {
+    width: 100px;
+}
+
+nav {
+    background-color: var(--primary-color);
+}
+
+nav a {
+    display: none;
+    padding: 2%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "❌";
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.open a {
+    display: block;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+main {
+    padding: 10px;
+}
+
+main img {
+    max-width: 800px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card {
+    box-shadow: 5px 2px 2px black;
+}
+
+.spotCard {
+    box-shadow: 5px 2px 2px black;
+}
+
+.cardImg {
+    max-width: 200px;
+}
+
+.wrapper a {
+    color: var(--primary-color);
+    padding: 5px;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.btnJoin {
+    width: 250px;
+    padding: 10px 25px 10px 25px;
+    font-family: Arial;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: -1px -1px 2px #618926;
+    background: -moz-linear-gradient(#98ba40, #a6c250 35%, #618926);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #98ba40), color-stop(.35, #a6c250), color-stop(1, #618926));
+    border: 1px solid #618926;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.btnJoin:hover {
+    text-shadow: -1px -1px 2px #465f97;
+    background: -moz-linear-gradient(#245192, #1e3b73 75%, #12295d);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #245192), color-stop(.75, #1e3b73), color-stop(1, #12295d));
+    border: 1px solid #0f2557;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--tex-in-color);
+    text-align: center;
+}
