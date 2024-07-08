@@ -39,6 +39,14 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/temple-small.webp" media="(max-width: 400px)">
+                <source srcset="images/temple-medium.webp" media="(max-width: 960px)">
+                <img src="images/temple-large.webp" alt="temple of El Salvador" width="1200" height="600">
+            </picture>
+            <p>Temple of San Salvador, El Salvador</p>
+        </div>
         <h1>WDD 230 - Web Frontend Development</h1>
         <section class="card">
             <h2>Learning Activities</h2>
@@ -48,7 +56,7 @@
                         | <span id="week1act3">JS Pen</span></a></li>
                 <li><a id="tag1" href="">Week 02:</a></li>
                 <li><a id="tag2" href="./week03/images/landscape.webp">Week 03: <span>WepP</span></a></li>
-                <li><a id="tag3" href="">Week 04:</a></li>
+                <li><a id="tag3" href="">Week 04: <span>Local Storage</span></a></li>
                 <li><a id="tag4" href="">Week 05:</a></li>
                 <li><a id="tag5" href="">Week 06:</a></li>
             </ul>
@@ -57,9 +65,12 @@
             <h2>Information</h2>
             <p>Chalatenango, El Salvador</p>
             <p>☀️ 76 &#186;F - Sunshine</p>
-            <p>Page Visits: </p>
+            <p>Page Visits: <span class="visits"></span> </p>
         </section>
     </main>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.582336640878!2d-89.249412824911!3d13.683142086701537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f632fd56739a597%3A0x5c02f0dd1591caf0!2sTemplo%20de%20San%20Salvador%2C%20El%20Salvador!5e0!3m2!1ses-419!2ssv!4v1720414366818!5m2!1ses-419!2ssv"
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <footer>
         <p id="currentYear"></p>
         <p id="lastModified"></p>

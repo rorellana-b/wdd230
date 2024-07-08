@@ -158,3 +158,33 @@ footer {
 .open a {
     display: block;
 }
+
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.hero picture {
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2%;
+    background-color: rgb(225, 225, 225, 40%);
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    width: 400px;
+    height: 250px;
+}
