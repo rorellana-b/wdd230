@@ -68,21 +68,21 @@ main {
 }
 
 main img {
-    max-width: 800px;
+    max-width: 1200px;
     width: 100%;
     object-fit: cover;
 }
 
-.card {
-    box-shadow: 5px 2px 2px black;
-}
 
-.spotCard {
-    box-shadow: 5px 2px 2px black;
+.spotImg {
+    max-width: 100%;
+    background-image: linear-gradient(rgba(0, 118, 244, 0.5), rgba(25, 44, 73, 0.5));
+    border-radius: 6px;
+    padding: 5%;
 }
 
 .cardImg {
-    max-width: 200px;
+    max-width: 50%;
 }
 
 .wrapper a {
@@ -90,6 +90,11 @@ main img {
     padding: 5px;
     font-size: 2rem;
     text-decoration: none;
+}
+
+.info {
+    background-color: #b6c9f4;
+    border-radius: 6px;
 }
 
 .btnJoin {

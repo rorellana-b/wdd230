@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="description"
+        content="Chamber of Commerce for WDD 230 Web Frontend Development course by Ronal Orellana">
+    <meta property="og:title" content="WDD 230 - Web Frontend Development">
+    <meta property="og:image" content="https://www.linkedin.com/in/ronal-orellana-17a10b224/">
+    <meta property="og:url" content="https://rorellana-b.github.io/wdd230/">
+    <link rel="icon" href="images/flag.ico">
+    <meta name="Author" content="Ronal Balmore Orellana Bonilla">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <!-- Font Awesome 5.15.1 CSS -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+    <script defer src="scripts/getInfo.js"></script>
+    <title>Chamber of Commerce - El Salvador</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo.png" alt="">
+        <button id="menu"></button>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="#">Directory</a>
+            <a href="#">Join</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="sidebar">
+                <div class="info">
+                    <h2 class="headings">Welcome!</h2>
+                    <p>The Chamber of Commerce and Industry of El Salvador welcomes the new members of the association,
+                        who join this business family.</p>
+                </div>
+                <div class="info">
+                    <h2 class="headings">Information</h2>
+                    <img src="images/solutions.jpeg" alt="" loading="lazy" width="100" height="100">
+                    <p>Learn about the different initiatives that the Chamber of Commerce and Industry of El Salvador
+                        has created, with the aim of adapting productive and commercial activity to this new reality,
+                        through digital content aimed at different industries, taking advantage of different platforms
+                        and the engagement of Camarasal sites and networks</p>
+                    <button class="btnJoin">More Information</button>
+                </div>
+                <div class="calendar">
+                    <iframe
+                        src="https://calendar.google.com/calendar/embed?src=es.sv%23holiday%40group.v.calendar.google.com&ctz=America%2FEl_Salvador"
+                        width="200" height="300" style="border: 0" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+            <div class="imgContainer">
+                <h2 class="headings">Companies from El Salvador</h2>
+                <div class="CardCompany">
+                    <img class="containerPic" src="images/CAPRI.webp" alt="logo" loading="lazy" width="250"
+                        height="250">
+                    <p>Company of Beds</p>
+                </div>
+                <div class="CardCompany">
+                    <img class="containerPic" src="images/SELECTOS.webp" alt="logo" loading="lazy" width="250"
+                        height="250">
+                    <p>Company of Supermarkets</p>
+                </div>
+                <div class="CardCompany">
+                    <img class="containerPic" src="images/AES.webp" alt="logo Capri" loading="lazy" width="250"
+                        height="250">
+                    <p>Company of Electricity</p>
+                </div>
+                <div class="CardCompany">
+                    <img class="containerPic" src="images/CONFITE.webp" alt="logo" loading="lazy" width="250"
+                        height="250">
+                    <p>Company of Candys</p>
+                </div>
+                <div class="CardCompany">
+                    <img class="containerPic" src="images/LACTOLAC.webp" alt="logo" loading="lazy" width="250"
+                        height="250">
+                    <p>Company of Dairys</p>
+                </div>
+                <div class="CardCompany">
+                    <img class="containerPic" src="images/PAN_SINAI.webp" alt="logo" loading="lazy" width="250"
+                        height="250">
+                    <p>Company of Bread</p>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <p id="currentYear"></p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
