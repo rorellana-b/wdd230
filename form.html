@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="description" content="Home Page for WDD 230 Web Frontend Development course by Ronal Orellana">
+    <meta property="og:title" content="WDD 230 - Web Frontend Development">
+    <meta property="og:image" content="https://www.linkedin.com/in/ronal-orellana-17a10b224/">
+    <meta property="og:url" content="https://rorellana-b.github.io/wdd230/">
+    <link rel="icon" href="images/favicon.ico">
+    <meta name="Author" content="Ronal Balmore Orellana Bonilla">
+
+    <title>Ronal Orellana - WDD 230 - Web Frontend Development</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <script defer src="scripts/getDates.js"></script>
+    <script defer src="scripts/form.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/photo.png" alt="profile-photo">
+        <span>Ronal B. Orellana </span>
+    </header>
+    <button id="menu"></button>
+    <div id="mode">🌙</div>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="./week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a id="home" href="form.html">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form method="get" action="record.html" class="wf1">
+            <Label>User Name: <input type="text" name="username" id="username" required></Label>
+            <Label>Password: <input type="password" name="Password" id="password1" pattern="[A-Za-z-0-9]{8,15}"
+                    required></Label>
+            <Label>Password: <input type="password" name="Password" id="password2" pattern="[A-Za-z-0-9]{8,15}"
+                    required></Label>
+
+            <label>Email: <input type="email" id="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+                    title="Please enter a valid email address"></label>
+            <fieldset>
+                <legend>Feedback</legend>
+                <div id="feedback">0</div>
+                <input type="range" id="r" name="r" min="0" max="5" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="0"></option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                </datalist>
+            </fieldset>
+            <div id="formmessage"></div>
+            <input type="submit" value="Create Account">
+        </form>
+
+    </main>
+    <footer>
+        <p id="currentYear"></p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
