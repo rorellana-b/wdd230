@@ -1,0 +1,34 @@
+h1 {
+    color: navy;
+    text-align: center;
+}
+
+#cards {
+    background-color: rgb(225, 225, 198);
+    text-align: center;
+    padding: 5%;
+    margin: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+h2 {
+    margin: 5px 0%;
+}
+
+footer {
+    padding: 5%;
+    text-align: center;
+    background-color: beige;
+    font-size: large;
+}
+
+section {
+    margin: 5px;
+    background-color: beige;
+    padding: 5%;
+}
+
+p {
+    margin: 1%;
+}

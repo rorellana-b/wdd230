@@ -1,0 +1,25 @@
+[
+    {
+        "family-name": "Orellana",
+        "moved": "01/07/2024",
+        "familysize": 3,
+        "visited": true,
+        "members": [
+            {
+                "name": "Ronal Orellana",
+                "gender": "male",
+                "birthdate": "18/07/1990"
+            },
+            {
+                "name": "Maria Bonilla",
+                "gender": "female",
+                "birthdate": "10/12/2018"
+            },
+            {
+                "name": "Manuel Orellana",
+                "gender": "male",
+                "birthdate": "31/09/1990"
+            }
+        ]
+    }
+]
