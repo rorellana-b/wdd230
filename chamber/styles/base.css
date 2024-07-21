@@ -172,3 +172,23 @@ main i {
 .list p {
     margin: 0%;
 }
+
+#list {
+    width: 100px;
+    padding: 10px 5px 10px 5px;
+    font-family: Arial;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 6px;
+}
+
+#grid {
+    width: 100px;
+    padding: 10px 5px 10px 5px;
+    font-family: Arial;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 6px;
+}
