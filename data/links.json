@@ -42,6 +42,32 @@
                     "title": "webp"
                 }
             ]
+        },
+        {
+            "week": "Week 04",
+            "links": [
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "Table"
+                },
+                {
+                    "url": "week04/Form-start2/index.html",
+                    "title": "Form"
+                }
+            ]
+        },
+        {
+            "week": "Week 05",
+            "links": [
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Prophets"
+                }
+            ]
         }
     ]
 }

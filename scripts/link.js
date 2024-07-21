@@ -17,7 +17,7 @@ function displayWeeks(weeks) {
     weeks.forEach(week => {
         const weekItem = document.createElement('ul');
         const weekTitle = document.createElement('h4');
-        weekTitle.textContent = week.week;
+        weekTitle.textContent = `${week.week} :`;
         weekItem.appendChild(weekTitle);
 
         week.links.forEach(link => {
@@ -25,11 +25,10 @@ function displayWeeks(weeks) {
             linkItem.href = `${baseUrl}${link.url}`;
             linkItem.textContent = `${link.title}`;
             weekItem.appendChild(linkItem);
-            weekItem.appendChild(document.createTextNode(' | ')); // Add separator
+            weekItem.appendChild(document.createTextNode(' | '));
         });
 
-        // Remove the last separator
-        //weekItem.removeChild(weekItem.lastChild);
+        weekItem.removeChild(weekItem.lastChild);
 
         cards.appendChild(weekItem);
     });
