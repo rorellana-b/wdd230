@@ -6,6 +6,7 @@
             "phone": "(+503) 2255-2706",
             "website": "https://industriascapri.com/",
             "image": "CAPRI",
+            "membershipLevel": "Gold",
             "description": "Capri is a highly prestigious and successful brand in the bed market, and we are no exception; it is our main brand in bed sales."
         },
         {
@@ -14,6 +15,7 @@
             "phone": "(+503) 2267-6767",
             "website": "https://www.superselectos.com/",
             "image": "SELECTOS",
+            "membershipLevel": "Gold",
             "description": "Selectos is a lider in supermarkets in EL Salvador, with more that a decade of experience in the market"
         },
         {
@@ -22,6 +24,7 @@
             "phone": "(+503) 2229-9100",
             "website": "https://www.aes-elsalvador.com/es",
             "image": "AES",
+            "membershipLevel": "Silver",
             "description": "AES Corporation has done for more than 40 years. Today, we operate in 14 countries, transforming and innovating to create energy solutions that are both economically and environmentally viable."
         },
         {
@@ -30,6 +33,7 @@
             "phone": "(+503) 2221-1986",
             "website": "https://confiteriaamericana.com/",
             "image": "CONFITE",
+            "membershipLevel": "Silver",
             "description": "A selection of our favourite products from confectioners at heart, which are always present in our daily life"
         },
         {
@@ -38,6 +42,7 @@
             "phone": "(+503) 2201-6000",
             "website": "https://www.lactolacshop.com",
             "image": "LACTOLAC",
+            "membershipLevel": "Bronze",
             "description": "Leading company in the production of high-quality dairy products in Central America."
         },
         {
@@ -46,6 +51,7 @@
             "phone": "(+503) 2525-0100",
             "website": "https://www.pansinai.com/",
             "image": "PAN_SINAI",
+            "membershipLevel": "Bronze",
             "description": "We are more than just a bread that comes out of the oven to your table"
         }
     ]
