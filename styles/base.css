@@ -195,3 +195,13 @@ iframe {
     width: 400px;
     height: 250px;
 }
+
+.business {
+    background-color: aqua;
+
+}
+
+.business img {
+    max-width: 300px;
+    width: 90%;
+}

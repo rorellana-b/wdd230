@@ -125,3 +125,42 @@ footer {
     color: var(--tex-in-color);
     text-align: center;
 }
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.business img {
+    max-width: 300px;
+    width: 70%;
+}
+
+.business {
+    padding: 2%;
+    margin: 5px;
+    background-color: #98ba40;
+}
+
+main i {
+    background-color: white;
+    border-radius: 6px;
+}
+
+.list img {
+    visibility: hidden;
+    height: 1px;
+}
+
+.list {
+    margin: 0%;
+    padding: 0%;
+}
+
+.list h3 {
+    margin: 0%;
+}
+
+.list p {
+    margin: 0%;
+}

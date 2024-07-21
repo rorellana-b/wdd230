@@ -1,0 +1,20 @@
+{
+    "members": [
+        {
+            "name": "Capri",
+            "address": "Paseo General Escalón Norte",
+            "phone": "(+503) 2255-2706",
+            "website": "https://industriascapri.com/",
+            "image": "CAPRI",
+            "description": "Capri is a highly prestigious and successful brand in the bed market, and we are no exception; it is our main brand in bed sales."
+        },
+        {
+            "name": " TM Pick n Pay",
+            "address": "Prolongación 59 AV Sur y calle El Progreso 2934.",
+            "phone": "(+503) 2267-6767",
+            "website": "https://www.superselectos.com/",
+            "image": "SELECTOS",
+            "description": "Selectos is a lider in supermarkets in EL Salvador, with more that a decade of experience in the market"
+        }
+    ]
+}
