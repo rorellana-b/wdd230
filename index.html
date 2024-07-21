@@ -21,6 +21,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <script defer src="scripts/getDates.js"></script>
+    <script defer src="scripts/link.js"></script>
 </head>
 
 <body>
@@ -63,8 +64,11 @@
         </section>
         <section class="card">
             <h2>Information</h2>
-            <p>Chalatenango, El Salvador</p>
-            <p>☀️ 76 &#186;F - Sunshine</p>
+            <p>Chalatenango, El Salvador <span id="current-temp"></span></p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption></figcaption>
+            </figure>
             <p>Page Visits: <span class="visits"></span> </p>
         </section>
     </main>

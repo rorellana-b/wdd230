@@ -1,0 +1,47 @@
+{
+    "weeks": [
+        {
+            "week": "Week 01",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "Grail"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "Media Queries"
+                }
+            ]
+        },
+        {
+            "week": "Week 02",
+            "links": [
+                {
+                    "url": "week01/design.html",
+                    "title": "Design"
+                },
+                {
+                    "url": "week01/hamburgerMenu.html",
+                    "title": "Menu"
+                },
+                {
+                    "url": "week01/bom.html",
+                    "title": "BOM"
+                }
+            ]
+        },
+        {
+            "week": "Week 03",
+            "links": [
+                {
+                    "url": "week01/lazyload.html",
+                    "title": "Lazy"
+                },
+                {
+                    "url": "week01/responsive-images.html",
+                    "title": "webp"
+                }
+            ]
+        }
+    ]
+}
