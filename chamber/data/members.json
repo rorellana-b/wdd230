@@ -9,12 +9,28 @@
             "description": "Capri is a highly prestigious and successful brand in the bed market, and we are no exception; it is our main brand in bed sales."
         },
         {
-            "name": " TM Pick n Pay",
+            "name": "Super Selectos",
             "address": "Prolongación 59 AV Sur y calle El Progreso 2934.",
             "phone": "(+503) 2267-6767",
             "website": "https://www.superselectos.com/",
             "image": "SELECTOS",
             "description": "Selectos is a lider in supermarkets in EL Salvador, with more that a decade of experience in the market"
+        },
+        {
+            "name": "AES El Salvador",
+            "address": "Calle El Bambú, colonia San Antonio, Ayutuxtepeque, San Salvador",
+            "phone": "(+503) 2229-9100",
+            "website": "https://www.aes-elsalvador.com/es",
+            "image": "AES",
+            "description": "AES Corporation has done for more than 40 years. Today, we operate in 14 countries, transforming and innovating to create energy solutions that are both economically and environmentally viable."
+        },
+        {
+            "name": "Confiteria Americana",
+            "address": "Av. Espana, Sal Salvador",
+            "phone": "(+503) 2221-1986",
+            "website": "https://confiteriaamericana.com/",
+            "image": "CONFITE",
+            "description": "A selection of our favourite products from confectioners at heart, which are always present in our daily life"
         }
     ]
 }
