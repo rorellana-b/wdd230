@@ -31,6 +31,22 @@
             "website": "https://confiteriaamericana.com/",
             "image": "CONFITE",
             "description": "A selection of our favourite products from confectioners at heart, which are always present in our daily life"
+        },
+        {
+            "name": "Lactolac",
+            "address": "Av. Espana, Sal Salvador",
+            "phone": "(+503) 2201-6000",
+            "website": "https://www.lactolacshop.com",
+            "image": "LACTOLAC",
+            "description": "Leading company in the production of high-quality dairy products in Central America."
+        },
+        {
+            "name": "Pan Sinai",
+            "address": "Col. San Antonio, Av. Las Delicias #20, Soyapango",
+            "phone": "(+503) 2525-0100",
+            "website": "https://www.pansinai.com/",
+            "image": "PAN_SINAI",
+            "description": "We are more than just a bread that comes out of the oven to your table"
         }
     ]
 }

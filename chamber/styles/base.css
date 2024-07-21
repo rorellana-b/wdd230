@@ -139,7 +139,15 @@ footer {
 .business {
     padding: 2%;
     margin: 5px;
-    background-color: #98ba40;
+    border: 1px solid #dddbdb;
+    border-radius: 6px;
+
+}
+
+.business:hover {
+    box-shadow: 0 0 10px #333;
+    background-color: #b6c9f4;
+
 }
 
 main i {
