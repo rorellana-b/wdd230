@@ -17,15 +17,15 @@
             "week": "Week 02",
             "links": [
                 {
-                    "url": "week01/design.html",
+                    "url": "week02/design.html",
                     "title": "Design"
                 },
                 {
-                    "url": "week01/hamburgerMenu.html",
+                    "url": "week02/hamburgerMenu.html",
                     "title": "Menu"
                 },
                 {
-                    "url": "week01/bom.html",
+                    "url": "week02/bom.html",
                     "title": "BOM"
                 }
             ]
@@ -34,11 +34,11 @@
             "week": "Week 03",
             "links": [
                 {
-                    "url": "week01/lazyload.html",
+                    "url": "week03/lazyload.html",
                     "title": "Lazy"
                 },
                 {
-                    "url": "week01/responsive-images.html",
+                    "url": "week03/responsive-images.html",
                     "title": "webp"
                 }
             ]
