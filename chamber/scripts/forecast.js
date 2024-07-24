@@ -16,7 +16,7 @@ fetch("https://api.openweathermap.org/data/2.5/forecast?lat=13.69&lon=89.24&unit
             let day = document.createElement('p');
 
 
-            picture.className = "weather-icon";
+            picture.className = "weatherIcon";
             name.className = 'forcast';
 
             //name.textContent = member.name;
