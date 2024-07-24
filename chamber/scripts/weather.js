@@ -1,7 +1,7 @@
 // WEATHER CONDITION 
 
 const currentTemp = document.querySelector('#current-temp');
-const weatherIcon = document.querySelector('.weather-icon');
+const weatherIcon = document.querySelector('.weatherIcon');
 
 const captionDesc = document.querySelector('figcaption');
 
