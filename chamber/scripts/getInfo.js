@@ -38,3 +38,10 @@ if (!lastVisit) {
 
 
 localStorage.setItem("lastVisit-ls", Date.now());
+
+// get info button
+const btnJoin = document.querySelector(".btnJoin");
+
+btnJoin.addEventListener("click", () => {
+    window.location.href = 'join.html';
+});

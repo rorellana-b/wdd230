@@ -106,7 +106,6 @@ main img {
     font-weight: bold;
     text-decoration: none;
     color: #000;
-
     background: -moz-linear-gradient(#98ba40, #a6c250 35%, #618926);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #98ba40), color-stop(.35, #a6c250), color-stop(1, #618926));
     border: 1px solid #618926;
