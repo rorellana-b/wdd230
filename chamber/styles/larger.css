@@ -40,7 +40,7 @@
     .spotCard img {
         max-width: 90%;
         height: 250px;
-        padding: 5%;
+        padding: 2%;
     }
 
     .spotCard:hover {
@@ -135,4 +135,15 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
+
+    #forcast-Container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .spotlight {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
 }

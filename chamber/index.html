@@ -14,10 +14,15 @@
     <meta name="Author" content="Ronal Balmore Orellana Bonilla">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/494230f52b.js" crossorigin="anonymous"></script>
     <script defer src="scripts/getInfo.js"></script>
+    <script defer src="scripts/weather.js"></script>
+    <script defer src="scripts/forecast.js"></script>
+    <script defer src="scripts/banner.js"></script>
+
     <title>Chamber of Commerce - El Salvador</title>
 </head>
 
@@ -35,50 +40,78 @@
     </header>
 
     <main>
+        <!-- Banner -->
         <h1>Chamber of Commerce of El Salvador</h1>
+        <div id="customBanner"></div>
         <img src="images/hero.webp" alt="CH">
         <button class="btnJoin">Join to the Chamber</button>
         <section>
             <h2>Information</h2>
             <div class="card">
-                <p>Chalatenango, El Salvador</p>
-                <p>☀️ 76 &#186;F - Sunshine</p>
-                <p>Page Visits: <span class="mesage"></span> </p>
+                <!-- Weather Section -->
+                <p>Chalatenango, El Salvador: <span id="current-temp"></span></p>
+                <figure>
+                    <img class="weather-icon">
+                    <figcaption clas="forcast"></figcaption>
+                </figure>
+                <h3>Weather Forcast</h3>
+                <div id="forcast-Container">
+                </div>
+                <p>Page Visits: <span class="mesage"></span></p>
             </div>
         </section>
-        <section>
+        <section id="spotlight-container">
             <h2>Events</h2>
+            <!-- Spotlitghs Section -->
             <div class="card">
                 <img class="cardImg" src="images/business.webp" alt="">
+            </div>
+            <!-- Spotlight Section -->
+            <h2>Member Spotlights</h2>
+            <div class="spotlight">
+                <div id="spotlight1">
+                    <img src="images/SELECTOS.webp">
+                    <img src="images/AES.webp" alt="Imagen 2">
+                    <img src="images/CAPRI.webp" alt="Imagen 3">
+                </div>
+                <div id="membership">
+                    <img src="images/gold.webp" alt="gold">
+                    <p>Golden Member</p>
+                </div>
             </div>
         </section>
         <section class="spot">
             <div class="spotCard">
                 <h2>Close Courses</h2>
                 <img class="spotImg" src="images/business1.webp" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>We offer our beneficiaries a wide range of training opportunities aimed at developing and
+                    strengthening the knowledge, competencies and skills of the human resources of organizations.</p>
             </div>
             <div class="spotCard">
                 <h2>Services</h2>
                 <img class="spotImg" src="images/businnes2.webp" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>Learn about the different initiatives that the Chamber of Commerce and Industry of El Salvador has
+                    created, with the aim of adapting productive and commercial activity to this new reality and through
+                    digital content.</p>
             </div>
             <div class="spotCard">
                 <h2>Benefits of Membership</h2>
                 <img class="spotImg" src="images/business3.webp" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>Become part of the most important union in the country with a presence nationwide and enjoy all the
+                    benefits we have for the development of your company.</p>
             </div>
         </section>
 
         <div class="wrapper">
-            <a href="#" class="icon facebook">
-                <span><i class="fab fa-facebook-f"></i></span>
+            <!-- Social Media Section -->
+            <a href="#">
+                <span><i class="fa-brands fa-square-facebook"></i></span>
             </a>
-            <a href="#" class="icon twitter">
-                <span><i class="fab fa-twitter"></i></span>
+            <a href="#">
+                <span><i class="fa-brands fa-x-twitter"></i></span>
             </a>
-            <a href="#" class="icon instagram">
-                <span><i class="fab fa-instagram"></i></span>
+            <a href="#">
+                <span><i class="fa-brands fa-instagram"></i></span>
             </a>
         </div>
 

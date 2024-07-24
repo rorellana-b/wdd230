@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotlight de Imágenes Aleatorias</title>
+    <style>
+        /* Estilos para el spotlight */
+        #spotlight {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            /* Ajusta la altura según tus necesidades */
+            border: 1px solid #ccc;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #spotlight img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            /* Para ajustar las imágenes sin distorsión */
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        #spotlight .active {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="spotlight">
+        <img src="../chamber/images/business1.webp" alt="Imagen 1">
+        <img src="../chamber/images/business2.webp" alt="Imagen 2">
+        <img src="../chamber/images/business3.webp" alt="Imagen 3">
+    </div>
+
+    <script>
+        // JavaScript para cambiar imágenes cada 5 segundos
+        document.addEventListener("DOMContentLoaded", function () {
+            var images = document.querySelectorAll("#spotlight img");
+            var currentIndex = 0;
+
+            // Función para mostrar la siguiente imagen
+            function showNextImage() {
+                images[currentIndex].classList.remove("active");
+                currentIndex = (currentIndex + 1) % images.length;
+                images[currentIndex].classList.add("active");
+            }
+
+            // Mostrar la primera imagen al cargar la página
+            images[currentIndex].classList.add("active");
+
+            // Cambiar imágenes cada 5 segundos
+            setInterval(showNextImage, 5000);
+        });
+    </script>
+</body>
+
+</html>

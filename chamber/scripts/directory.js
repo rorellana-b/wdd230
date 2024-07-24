@@ -64,3 +64,4 @@ selectIMG.addEventListener('click', () => {
 
 
 getMemberData();
+

@@ -75,10 +75,11 @@ main img {
 
 
 .spotImg {
-    max-width: 100%;
+    max-width: 300px;
+    width: 90%;
     background-image: linear-gradient(rgba(0, 118, 244, 0.5), rgba(25, 44, 73, 0.5));
     border-radius: 6px;
-    padding: 5%;
+    padding: 2%;
 }
 
 .cardImg {
@@ -191,4 +192,109 @@ main i {
     text-decoration: none;
     color: #000;
     border-radius: 6px;
+}
+
+.weather-icon {
+    width: 80px;
+}
+
+#current-temp {
+    color: var(--primary-color);
+}
+
+figcaption {
+    color: var(--primary-color);
+    font-weight: bold;
+
+}
+
+figure {
+    margin: 0%;
+
+}
+
+figcaption span {
+    color: #000;
+    font-weight: normal;
+}
+
+#forcast-Container {
+    background-color: #b6c9f4;
+    padding: 5px;
+}
+
+#forcast-Container section {
+
+    border: gray solid;
+    background-color: white;
+    margin: 5px 5px;
+    padding: 0px 2px 2px 2px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+#forcast-Container section:hover {
+    background-color: #dfe9fe;
+}
+
+#customBanner {
+    background-color: greenyellow;
+    align-content: center;
+    height: 35px;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-Index: 9999;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin-top: 0px;
+}
+
+#customBanner p {
+    font-weight: bold;
+}
+
+#customBanner button {
+    height: 60px;
+    border: none;
+    background-color: greenyellow;
+}
+
+#spotlight1 {
+    display: flex;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+#spotlight1 img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#spotlight1 .active {
+    opacity: 1;
+}
+
+
+
+#membership {
+    text-align: center;
+}
+
+#membership img {
+    width: 100px;
 }
