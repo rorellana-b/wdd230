@@ -25,6 +25,7 @@ fetch("https://api.openweathermap.org/data/2.5/forecast?lat=13.69&lon=89.24&unit
 
             name.innerHTML = `${data.list[i].weather[0].description} <span>Temp:</span> ${data.list[i].main.temp}&deg;F`;
             picture.setAttribute('src', iconsrc);
+            picture.setAttribute('alt', "forcastImg");
 
             const date = new Date(data.list[i].dt_txt)
             day.innerHTML = date.toLocaleDateString("en-EN", options);
